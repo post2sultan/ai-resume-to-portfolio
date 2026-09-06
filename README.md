@@ -10,6 +10,21 @@ Turn one structured résumé into a polished, responsive portfolio website using
 
 ![AI resume-to-portfolio template preview](public/og.png)
 
+## New to websites? Start here
+
+**No coding experience is required.** Follow the [complete beginner’s guide](BEGINNER_GUIDE.md) to go from your existing résumé to a live portfolio website. It explains every step in plain language, including:
+
+- creating your own copy of this template;
+- giving your résumé to an AI coding assistant;
+- adding photographs, links, and contact details;
+- checking the website before publishing;
+- buying a domain such as `yourname.com`;
+- choosing hosting such as Vercel or Cloudflare;
+- connecting the domain and submitting the site to search engines;
+- making future changes after the site is live.
+
+➡️ **[Build your portfolio: the beginner’s step-by-step guide](BEGINNER_GUIDE.md)**
+
 ## Why this template
 
 Most portfolio starters still require people to rewrite components, metadata, and layouts by hand. This project gives an AI coding assistant the structure and guardrails to do that work from a single résumé brief—without locking the user into one model, hosting provider, or visual site builder.
