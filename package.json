@@ -1,6 +1,6 @@
 {
   "name": "ai-resume-to-portfolio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Turn one structured resume into a polished Next.js portfolio using any coding LLM.",
   "private": false,
   "license": "MIT",
