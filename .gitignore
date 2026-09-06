@@ -1,0 +1,27 @@
+# dependencies
+/node_modules
+
+# Next.js output
+/.next
+/out
+
+# local and deployment output
+/dist
+/.wrangler
+/.open-next
+
+# environment and secrets
+.env
+.env.*
+!.env.example
+
+# logs and editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts

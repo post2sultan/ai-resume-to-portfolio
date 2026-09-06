@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: If this template helps your work, please cite the project using this metadata.
+title: Resume to Executive Portfolio
+type: software
+authors:
+  - family-names: Salahuddin
+    given-names: Sultan
+repository-code: https://github.com/post2sultan/resume-to-executive-portfolio
+url: https://sultanofscale.com
+license: MIT
+version: 1.0.0
+date-released: 2026-09-06

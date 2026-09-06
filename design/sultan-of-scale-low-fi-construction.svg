@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Sultan of Scale low fidelity cube construction studies</title>
+  <desc>Three vector construction studies. Each uses two angular S ribbons and a third S defined by negative space inside an isometric cube.</desc>
+  <rect width="1600" height="900" fill="#E6E9EF"/>
+  <style>
+    .label { font: 700 18px Arial, sans-serif; fill: #0B1F3A; letter-spacing: 2px; }
+    .note { font: 14px Arial, sans-serif; fill: #2B2F36; letter-spacing: 1px; }
+    .wordmark { font: 700 26px Arial, sans-serif; fill: #0B1F3A; letter-spacing: 8px; }
+    .guide { stroke: #A7B1BE; stroke-width: 1.5; stroke-dasharray: 6 7; fill: none; opacity: .8; }
+    .edge { stroke: #0B1F3A; stroke-width: 8; stroke-linejoin: miter; fill: none; }
+    .s-ribbon { stroke-linecap: square; stroke-linejoin: miter; fill: none; }
+  </style>
+
+  <!-- Shared construction: the S path is deliberately the dominant silhouette. -->
+  <defs>
+    <path id="s-path" d="M 138 42 H 74 L 44 60 V 82 L 122 122 V 150 L 94 168 H 30"/>
+    <polygon id="cube-top" points="90,14 172,60 90,106 8,60"/>
+    <polygon id="cube-left" points="8,60 90,106 90,198 8,152"/>
+    <polygon id="cube-right" points="172,60 90,106 90,198 172,152"/>
+  </defs>
+
+  <!-- A: executive. Square planes and a clear negative-space S. -->
+  <g transform="translate(120 170)">
+    <text class="label" x="0" y="-78">A / EXECUTIVE</text>
+    <text class="note" x="0" y="-48">ARCHITECTURAL, PRECISE, RESTRAINED</text>
+    <g transform="scale(2.05)">
+      <use href="#cube-top" fill="#A7B1BE" opacity=".92"/>
+      <use href="#cube-left" fill="#0B1F3A"/>
+      <use href="#cube-right" fill="#1F3B5C"/>
+      <!-- S1: navy structural ribbon -->
+      <use href="#s-path" class="s-ribbon" stroke="#0B1F3A" stroke-width="22" transform="translate(3 15)"/>
+      <!-- S2: silver interwoven ribbon -->
+      <use href="#s-path" class="s-ribbon" stroke="#A7B1BE" stroke-width="14" transform="translate(21 -2)"/>
+      <!-- S3: the mist aperture is intentionally shaped as an S in the centre -->
+      <use href="#s-path" class="s-ribbon" stroke="#E6E9EF" stroke-width="7" transform="translate(13 7)"/>
+      <use href="#cube-top" class="edge" opacity=".48"/>
+      <use href="#cube-left" class="edge" opacity=".48"/>
+      <use href="#cube-right" class="edge" opacity=".48"/>
+    </g>
+    <text class="note" x="0" y="382">S1 / NAVY RIBBON   S2 / SILVER RIBBON   S3 / NEGATIVE SPACE</text>
+    <text class="wordmark" x="0" y="438">SULTAN OF SCALE</text>
+  </g>
+
+  <!-- B: modern. The two S ribbons visibly weave through the cube. -->
+  <g transform="translate(605 170)">
+    <text class="label" x="0" y="-78">B / MODERN</text>
+    <text class="note" x="0" y="-48">INTERWOVEN, CLEAR, DIGITAL</text>
+    <g transform="scale(2.05)">
+      <use href="#cube-top" fill="#1F3B5C"/>
+      <use href="#cube-left" fill="#0B1F3A"/>
+      <use href="#cube-right" fill="#2B2F36"/>
+      <!-- S1 travels across the primary plane -->
+      <use href="#s-path" class="s-ribbon" stroke="#E6E9EF" stroke-width="24" transform="translate(3 15)"/>
+      <!-- S2 offsets and reads as the second interwoven S -->
+      <use href="#s-path" class="s-ribbon" stroke="#A7B1BE" stroke-width="13" transform="translate(25 -4)"/>
+      <!-- S3 is cut back into the centre using the background colour -->
+      <use href="#s-path" class="s-ribbon" stroke="#E6E9EF" stroke-width="6" transform="translate(14 6)"/>
+      <use href="#cube-top" class="edge" opacity=".42"/>
+      <use href="#cube-left" class="edge" opacity=".42"/>
+      <use href="#cube-right" class="edge" opacity=".42"/>
+    </g>
+    <text class="note" x="0" y="382">TWO S RIBBONS WEAVE ON THREE CUBE PLANES</text>
+    <text class="wordmark" x="0" y="438">SULTAN OF SCALE</text>
+  </g>
+
+  <!-- C: neo-artistic. The same construction, with greater negative-space tension. -->
+  <g transform="translate(1090 170)">
+    <text class="label" x="0" y="-78">C / NEO-ARTISTIC</text>
+    <text class="note" x="0" y="-48">SCULPTURAL, ELEGANT, CONTROLLED</text>
+    <g transform="scale(2.05)">
+      <use href="#cube-top" fill="#0B1F3A"/>
+      <use href="#cube-left" fill="#2B2F36"/>
+      <use href="#cube-right" fill="#1F3B5C"/>
+      <!-- S1 and S2 remain angular, never rounded or decorative. -->
+      <use href="#s-path" class="s-ribbon" stroke="#A7B1BE" stroke-width="24" transform="translate(2 13)"/>
+      <use href="#s-path" class="s-ribbon" stroke="#0B1F3A" stroke-width="13" transform="translate(27 -7)"/>
+      <!-- S3: deliberately visible negative S aperture -->
+      <use href="#s-path" class="s-ribbon" stroke="#E6E9EF" stroke-width="7" transform="translate(14 5)"/>
+      <use href="#cube-top" class="edge" opacity=".42"/>
+      <use href="#cube-left" class="edge" opacity=".42"/>
+      <use href="#cube-right" class="edge" opacity=".42"/>
+    </g>
+    <text class="note" x="0" y="382">MORE TENSION, SAME THREE-S CONSTRUCTION</text>
+    <text class="wordmark" x="0" y="438">SULTAN OF SCALE</text>
+  </g>
+
+  <line x1="120" y1="720" x2="1480" y2="720" stroke="#A7B1BE" stroke-width="1"/>
+  <text class="note" x="120" y="760">LOW-FIDELITY CONSTRUCTION ONLY. NO TYPOGRAPHY, LIGHTING, OR FINAL RENDERING DECISIONS ARE IMPLIED.</text>
+</svg>
