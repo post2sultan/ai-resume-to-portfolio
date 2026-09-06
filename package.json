@@ -1,24 +1,29 @@
 {
-  "name": "executive-portfolio-template",
+  "name": "ai-resume-to-portfolio",
   "version": "1.0.0",
-  "description": "An open-source, resume-driven executive portfolio built with Next.js.",
+  "description": "Turn one structured resume into a polished Next.js portfolio using any coding LLM.",
   "private": false,
   "license": "MIT",
-  "homepage": "https://github.com/post2sultan/resume-to-executive-portfolio#readme",
+  "homepage": "https://github.com/post2sultan/ai-resume-to-portfolio#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/post2sultan/resume-to-executive-portfolio.git"
+    "url": "git+https://github.com/post2sultan/ai-resume-to-portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/post2sultan/resume-to-executive-portfolio/issues"
+    "url": "https://github.com/post2sultan/ai-resume-to-portfolio/issues"
   },
   "keywords": [
+    "ai-resume",
+    "resume-to-portfolio",
     "portfolio",
+    "portfolio-website",
     "resume",
     "nextjs",
+    "nextjs-template",
     "personal-website",
     "llm",
-    "template"
+    "template",
+    "career-tools"
   ],
   "engines": {
     "node": ">=22.13.0"
